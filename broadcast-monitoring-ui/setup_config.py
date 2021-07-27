@@ -3,7 +3,7 @@ import sys
 import boto3
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-args = "broadcast-monitoring-VideoProcessingStack-1XH7Z26JFYLLC"
+args = 'broadcast-monitoring-VideoProcessingStack-1XH7Z26JFYLLC'
 
 if not args:
     raise Exception('Name of video-processing stack missing.')
